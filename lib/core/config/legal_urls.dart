@@ -7,5 +7,5 @@ abstract final class LegalUrls {
     defaultValue: 'https://quaeng27.github.io/bondly-privacy/',
   );
 
-  static const privacyContactEmail = 'privacy@bondly.app';
+  static const privacyContactEmail = 'xfatihgunduz@gmail.com';
 }

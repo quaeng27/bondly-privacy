@@ -24,4 +24,4 @@ Set the same URL in:
 
 ## Contact
 
-Update `privacy@bondly.app` in `index.html` to your real inbox before store submit.
+Privacy contact: `xfatihgunduz@gmail.com` (also shown in-app under Settings → Privacy Policy).
