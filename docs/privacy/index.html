@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Bondly Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Bondly: Lock Screen & Touch — couples widget, digital touch, and encrypted vault."/>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px 64px; line-height: 1.65; color: #1a1a2e; }
+    @media (prefers-color-scheme: dark) { body { color: #e8e8f0; background: #0f0f18; } a { color: #ff7aa8; } }
+    h1 { color: #ff4d8d; font-size: 1.75rem; }
+    h2 { margin-top: 2rem; font-size: 1.15rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: 0.35rem 0; }
+    .muted { opacity: 0.85; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <h1>Bondly Privacy Policy</h1>
+  <p><strong>Last updated:</strong> 15 November 2026</p>
+  <p>
+    Bondly (“<strong>Bondly: Lock Screen &amp; Touch</strong>”) is a mobile app for two
+    connected people (couples or close friends) to share moods, lock-screen widgets,
+    haptic touches, and encrypted vault content. This policy describes what we collect,
+    why we use it, and your choices.
+  </p>
+
+  <h2>1. Who we are</h2>
+  <p>
+    Bondly is operated by the Sync app team (“<strong>we</strong>”, “<strong>us</strong>”).
+    For privacy questions contact:
+    <a href="mailto:privacy@bondly.app">privacy@bondly.app</a>
+    (or the support email listed on the App Store / Play listing).
+  </p>
+
+  <h2>2. Data we collect</h2>
+  <ul>
+    <li><strong>Account identifier</strong> — Firebase Authentication anonymous or email-linked UID.</li>
+    <li><strong>Profile</strong> — Display name you choose; pairing codes; connection metadata (partner link, primary connection).</li>
+    <li><strong>App content you create</strong> — Vibe/mood, digital touch patterns, vault items (encrypted on device before upload where E2EE applies), countdowns, reactions, galaxy progress — shared with your paired partner(s).</li>
+    <li><strong>Presence signals</strong> — Sleep mode, last unlock / activity timestamps used for the presence pulse (not precise GPS location).</li>
+    <li><strong>Device &amp; app data</strong> — OS version, app version, language, crash logs, performance and product analytics events (feature usage, not vault plaintext).</li>
+    <li><strong>Push token</strong> — FCM/APNs token to deliver touch, vault, and vibe notifications.</li>
+    <li><strong>Purchases</strong> — Subscription status via Apple App Store / Google Play (we do not receive your full payment card details).</li>
+    <li><strong>Recovery</strong> — If you enable account recovery: email (Firebase Auth) and optional vault recovery metadata you choose to back up; we do not store your recovery code plaintext.</li>
+    <li><strong>Widget data</strong> — Encrypted or summarized widget payload in app group / shared preferences for home-screen widgets.</li>
+  </ul>
+
+  <h2>3. Device permissions</h2>
+  <ul>
+    <li><strong>Camera &amp; photos</strong> — Vault photos and pairing QR (only when you use those features).</li>
+    <li><strong>Microphone</strong> — Short vault audio whispers.</li>
+    <li><strong>Notifications</strong> — Partner touches, vault, vibe, and ritual reminders.</li>
+    <li><strong>Face ID / Touch ID / biometric unlock</strong> — Local vault unlock only; biometric data stays on device.</li>
+    <li><strong>Local network (iOS)</strong> — Optional connectivity checks; not used to sell data.</li>
+  </ul>
+
+  <h2>4. How we use data</h2>
+  <ul>
+    <li>Pair you with a partner and sync content between your devices.</li>
+    <li>Render lock-screen / home-screen widgets and Live Activities (where supported).</li>
+    <li>Deliver push notifications you expect from a partner.</li>
+    <li>Operate subscriptions (Bondly+) and restore purchases.</li>
+    <li>Improve reliability and fix crashes (Firebase Crashlytics and similar).</li>
+    <li>Understand product usage in aggregate (Firebase Analytics / Mixpanel-style analytics where enabled).</li>
+  </ul>
+  <p><strong>We do not sell your personal information.</strong> We do not use your vault plaintext for advertising.</p>
+
+  <h2>5. Service providers</h2>
+  <p class="muted">We use trusted processors to run the app, including where applicable:</p>
+  <ul>
+    <li>Google Firebase (Auth, Cloud Firestore, Cloud Messaging, Analytics, Crashlytics)</li>
+    <li>Apple / Google in-app purchase platforms</li>
+    <li>Shorebird (optional over-the-air updates, if enabled in your build)</li>
+  </ul>
+  <p>Their processing is governed by their own terms and privacy policies.</p>
+
+  <h2>6. Encryption &amp; vault</h2>
+  <p>
+    Vault notes and media are encrypted on your device with keys derived on-device.
+    Partner content is stored as ciphertext in our backend where configured.
+    If you set up vault recovery, you must keep your recovery code safe —
+    <strong>we cannot read your recovery code or decrypt your vault without it</strong>.
+  </p>
+
+  <h2>7. Retention &amp; deletion</h2>
+  <ul>
+    <li>Partner content remains until you delete it, end a connection, or delete your account (features may vary by version).</li>
+    <li>Crash/analytics logs are retained per provider default retention (typically months).</li>
+    <li>You may request deletion of your account and associated cloud data by emailing
+      <a href="mailto:privacy@bondly.app">privacy@bondly.app</a> from your registered recovery email (if any).</li>
+  </ul>
+
+  <h2>8. Children</h2>
+  <p>
+    Bondly is not directed at children under 13 (or 16 in the EEA where applicable).
+    We do not knowingly collect data from children. Contact us if you believe a child has provided data.
+  </p>
+
+  <h2>9. International transfers</h2>
+  <p>
+    Data may be processed in the United States, EU, or other regions where our providers operate.
+    We rely on standard contractual safeguards where required by law.
+  </p>
+
+  <h2>10. Your rights (EEA / UK / Türkiye KVKK)</h2>
+  <p>
+    Depending on your region you may have rights to access, correct, delete, restrict, or port your data,
+    and to object to certain processing. Contact
+    <a href="mailto:privacy@bondly.app">privacy@bondly.app</a>.
+    You may lodge a complaint with your local data protection authority.
+  </p>
+
+  <h2>11. Tracking</h2>
+  <p>
+    We do not use Bondly for cross-app advertising tracking.
+    Apple Privacy Nutrition labels and Google Play Data Safety forms reflect Firebase/analytics SDKs
+    as disclosed in the store listings.
+  </p>
+
+  <h2>12. Changes</h2>
+  <p>
+    We may update this policy. We will revise the “Last updated” date.
+    Material changes may be shown in-app or via store release notes.
+  </p>
+
+  <hr/>
+  <p class="muted">© Bondly · Bondly: Lock Screen &amp; Touch</p>
+</body>
+</html>
